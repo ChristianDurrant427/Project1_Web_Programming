@@ -4,7 +4,7 @@ p, li, table, th, td{
 
 body {
     font-size: 12pt;
-    background-image: url("../BackgroundImage.jpg");
+    background-image: url('paper.gif');
 }
 p {
     margin-top: 12px;
@@ -23,8 +23,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 th {
-    color: darkred;
+    color: white;
 }
 
 table, th, td {

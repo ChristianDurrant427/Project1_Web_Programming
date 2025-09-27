@@ -4,7 +4,7 @@ p, li, table, th, td{
 
 body {
     font-size: 12pt;
-    background-image: url("../BackgroundImage.jpg");
+    background-image: url("C:\Users\tromb\JavaScriptProjects\Project1_Web_Programming\BackgroundImage.jpg");
 }
 p {
     margin-top: 12px;
@@ -23,8 +23,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 th {
-    color: darkred;
+    color: white;
 }
 
 table, th, td {
@@ -33,12 +34,12 @@ table, th, td {
 }
 .tableschematics {
     table-layout: fixed;
-    width: 600px;
+    width: 700px;
     border-collapse: collapse;
 }
 
 .imgstyle {
-    width: 650px;
+    width: 400px;
     height: auto;
     float: right;
     align-items: center;
@@ -46,22 +47,22 @@ table, th, td {
 
 .webprogramming {
     background-color: red;
-    width: 130px;
+    width: 150px;
 }
 .discretemath {
     background-color: brown;
-    width: 130px;
+    width: 150px;
 }
 .english {
     background-color: green;
-    width: 130px;
+    width: 150px;
 }
 .writing {
     background-color: orange;
-    width: 130px;
+    width: 150px;
 }
 .workout {
     background-color: teal;
-    width: 130px;
+    width: 150px;
 }
 

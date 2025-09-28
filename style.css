@@ -114,4 +114,8 @@ tr:nth-child(odd){
   font-size: 25px;
   font-weight: bold;
 }
+.close:hover {
+    color:#888888;
+    cursor: pointer;
+}
 

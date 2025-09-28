@@ -27,16 +27,9 @@ a:hover {
     text-decoration: underline;
 }
 
+
 th {
     color: darkred;
-}
-
-
-div {
-    margin-right: auto;
-    margin-left: auto;
-    width: 1800px;
-    background-color: beige;
 }
 
 table, th, td {
@@ -48,8 +41,11 @@ table, th, td {
     width: 700px;
     border-collapse: collapse;
 }
+tr:first-child {
+    background-color: grey;
+}
 tr:nth-child(even) {
-    background-color: #CCC;
+    background-color: #FFF;
 }
 tr:nth-child(odd){
     background-color: #AAA;
@@ -60,7 +56,9 @@ tr:nth-child(odd){
     height: auto;
     float: right;
     padding: 15px;
+    border: 2px solid black;
     box-shadow: 5px 10px #888888;
+    cursor: pointer;
 }
 
 .webprogramming {
@@ -82,5 +80,38 @@ tr:nth-child(odd){
 .workout {
     background-color: teal;
     width: 150px;
+}
+.centerpiece {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1600px;
+    background-color: beige;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 20px; 
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.5); 
+}
+
+.modal-img {
+  margin: auto;
+  display: block;
+  width: 75%;
+}
+
+
+.close {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  color: #a59696;
+  font-size: 25px;
+  font-weight: bold;
 }
 

@@ -30,8 +30,12 @@ a:hover {
 th {
     color: darkred;
 }
+
+
 div {
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1800px;
     background-color: beige;
 }
 
@@ -44,12 +48,19 @@ table, th, td {
     width: 700px;
     border-collapse: collapse;
 }
+tr:nth-child(even) {
+    background-color: #CCC;
+}
+tr:nth-child(odd){
+    background-color: #AAA;
+}
 
 .imgstyle {
     width: 400px;
     height: auto;
     float: right;
-    align-items: center;
+    padding: 15px;
+    box-shadow: 5px 10px #888888;
 }
 
 .webprogramming {
